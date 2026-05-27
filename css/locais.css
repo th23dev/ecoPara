@@ -205,49 +205,137 @@
 
     &.castanhal-theme {
         .detail-hero {
-            background-color: #247a3f;
+            background-image: url('https://agenciapara.com.br/midias/2026/grandes/20260128195704-GF00026160-F00487702.webp');
         }
+
+        .castanhal1 {
+            background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAcxPqS4bhZQW0WfZ54zjBMBTw_LYvOIXPqo5bgtaHtj39KgBhePZWK1OXEkpH_2FWDhefpPT2FwLmL9U3r8gxzDxWL5jixtr9FjJf7q1kqFUtcrcpFLr5U92MDsyc6886y3pKQOFSaXM=s680-w680-h510');
+        }
+
+        .castanhal2 {
+            background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPuAOBEcH5T3yjSXZO59g5VWEWOPHu8qhhjhsEViBZ6qA9Zm4g49HRxSG79ejqVFjXoHEEgs73tUqcgM0R8yYJ1TlxlvyENv30ZSG5xUOekEoR6ruT6XTVyeCiMKoi8mPfjO2kbg=s680-w680-h510');
+        }
+
+        .castanhal3 {
+            background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAH6zdVVjcSmjLDxTJQZFAl1K9IFwUbtsDtzwMRGKlFHQ9uhS74VsahPmAsqzsaGDSPsEAN2ul4iEH9I7uIKtz3liiYpnCklD7yBwCZLFX2FyZubTXikcz3D_YB8z4mZz_QSIihb=s680-w680-h510');
+        }
+
     }
 
     &.curuca-theme {
         .detail-hero {
-            background-color: #0d7f78;
+            background-image: url('https://www.agenciapara.com.br/midias/2024/grandes/20468_f58ec8ad-a1e6-3d70-a10f-97156fa98232.jpg');
+        }
+
+        .curuca1 {
+            background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAHG83qNsY6RLakuC55y6LcW6NXb_FRzVNF4uxDk82QYE9k-gJft3atlBuQeuF2rnAi6v2lR-hNuQrkyO5zWH2aPMYgVpQafWyjB5dPTL_tOoRwxfUGl4QSgncCpL1A9Ej3Rycaa=s680-w680-h510');
+        }
+
+        .curuca2 {
+            background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAFqCI9bNDx25hvEgE-DrzRXpiUwgtFKN4pGtPdETlL3tOenCKi2Flhf8kF_oIJHfQh8fOfIGtqGKde1g9yxSJhw6pQDcdf951lVgQrriyMw2NPpRidwvR_xw3JKyPJSTVagy26i=s680-w680-h510');
+
+        }
+
+        .curuca3 {
+            background-image: url('../imgs/curuca/rio-grande.webp');
+
         }
     }
 
     &.santa-izabel-theme {
         .detail-hero {
-            background-color: #568331;
+            background-image: url('../imgs/santa-izabel/santa-izabel1.jpg');
+
+        }
+
+        .santa-izabel1{
+            background-image: url('https://alepa.quartertec.com.br/Content/Portal/Fotos/2024/Copia(01)_up_ag_9917_santaizabel.jpg');
+        }
+        .santa-izabel2{
+            background-image: url('../imgs/santa-izabel/santa-izabel1.jpg');
+        }
+        .santa-izabel3{
+            background-image: url('https://turismo.santaisabel.sp.gov.br/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-30-at-09.18.58-1-945x605.jpeg');
         }
     }
 
     &.igarape-acu-theme {
         .detail-hero {
-            background-color: #2f6f7d;
+            background-image: url('../imgs/igarape-acu/igarape-acu1.jpg');
+        }
+
+        .igarape-acu1{
+            background-image: url('https://www.boradetrip.com.br/wp-content/uploads/2021/07/DJI_0083.jpg');
+        }
+        .igarape-acu2{
+            background-image: url('https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9WZ9k2HJIxFFzbhpE9wVczOMc4mG3nu5PXtDUPRwCP0NHhRVA6AK0QmT9EPySGuFlM34cU2ftHdpU86HvT8pu8gUVvuFMSnBclVhp86N51nwfFUErSeiTBs6WSF2vIRzx2vE=s680-w680-h510');
+        }
+        .igarape-acu3{
+            background-image: url('https://boradetrip.com.br/wp-content/uploads/2021/07/DJI_0075-1024x575.jpg');
         }
     }
 
     &.braganca-theme {
         .detail-hero {
-            background-color: #92732a;
+            background-image: url('https://www.boradetrip.com.br/wp-content/uploads/2021/04/DJI_0185.jpg');
+        }
+
+        .braganca1 {
+            background-image: url('https://i.pinimg.com/736x/46/d4/05/46d405bd00e2f393e1dadbec9954acd2.jpg');
+        }
+        .braganca2 {
+            background-image: url('https://imagens.ebc.com.br/mI1fJ1tTx3eEiG69pU7Hfp_8Ltw=/770x0/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2025/06/18/_d6a7885.jpg?itok=x0eWxmuf');
+        }
+        .braganca3 {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/61/Caet%C3%A9-bragan%C3%A7a.jpg');
         }
     }
 
     &.altamira-theme {
         .detail-hero {
-            background-color: #1d6955;
+            background-image: url('https://avozdoxingu.com.br/wp-content/uploads/2023/11/Altamira-112-anos.jpeg');
+        }
+
+        .altamira1 {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c9/AMAZONIA_REAL_ALDEIA_SAO_FRANCISCO_SOUZEL_PEDROSA_NETO-437_%2849594456486%29.jpg');
+        }
+        .altamira2 {
+            background-image: url('https://goias.gov.br/meioambiente/wp-content/uploads/sites/33/2015/05/corrego_carapina-a43.jpg');
+        }
+        .altamira3 {
+            background-image: url('https://altamira.pa.gov.br/wp-content/uploads/2024/06/DJI_0814-scaled.jpg');
         }
     }
 
     &.ourilandia-theme {
         .detail-hero {
-            background-color: #716b2a;
+            background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/9a/56/f6/ourilandia-do-norte-pa.jpg?w=1400&h=-1&s=1');
+        }
+
+        .ourilandia1 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcVBviQDLSvee-WNjI-yK8ccwmNgfc0PKNpQ&s');
+        }
+        .ourilandia2 {
+            background-image: url('https://pebinhadeacucar.com.br/v2018/wp-content/uploads/2018/07/FOTO-08-Oscar-da-Ecologia.jpg');
+        }
+        .ourilandia3 {
+            background-image: url('https://images.trvl-media.com/place/3000409457/bb193800-31dd-49b6-a2f0-12974d44795f.jpg');
         }
     }
 
     &.redencao-theme {
         .detail-hero {
-            background-color: #8b5d2a;
+            background-image: url('https://www.agenciapara.com.br/midias/2022/grandes/12839_7ce7816c-976a-63db-b298-f8c11f64653a.jpg');
+        }
+
+        .redencao1 {
+            background-image: url('https://agenciapara.com.br/midias/2020/grandes/7127_eec682b0-d9c7-b3cf-ebc9-f41caf3e5821.jpg');
+        }
+        .redencao2 {
+            background-image: url('https://redencaoturismo.com.br/wp-content/uploads/2023/12/u2zq5wookc.jpg');
+        }
+        .redencao3 {
+            background-image: url('https://imgbr.imovelwebcdn.com/avisos/22/30/33/86/00/21/720x532/6617701212.jpg?isFirstImage=true');
         }
     }
 }

@@ -128,35 +128,35 @@
         }
 
         &.castanhal {
-            background-color: #247a3f;
+            background-image: url('https://agenciapara.com.br/midias/2026/grandes/20260128195704-GF00026160-F00487702.webp');
         }
 
         &.curuca {
-            background-color: #0d7f78;
+            background-image: url('https://www.agenciapara.com.br/midias/2024/grandes/20468_f58ec8ad-a1e6-3d70-a10f-97156fa98232.jpg');
         }
 
         &.santa-izabel {
-            background-color: #568331;
+            background-image: url('../imgs/santa-izabel/santa-izabel1.jpg');
         }
 
         &.igarape-acu {
-            background-color: #2f6f7d;
+            background-image: url('../imgs/igarape-acu/igarape-acu1.jpg');
         }
 
         &.braganca {
-            background-color: #92732a;
+            background-image: url('https://www.boradetrip.com.br/wp-content/uploads/2021/04/DJI_0185.jpg');
         }
 
         &.altamira {
-            background-color: #1d6955;
+            background-image: url('https://avozdoxingu.com.br/wp-content/uploads/2023/11/Altamira-112-anos.jpeg');
         }
 
         &.ourilandia {
-            background-color: #716b2a;
+            background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/9a/56/f6/ourilandia-do-norte-pa.jpg?w=1400&h=-1&s=1');
         }
 
         &.redencao {
-            background-color: #8b5d2a;
+            background-image: url('https://www.agenciapara.com.br/midias/2022/grandes/12839_7ce7816c-976a-63db-b298-f8c11f64653a.jpg');
         }
     }
 }

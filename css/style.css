@@ -81,8 +81,7 @@ section {
 
       img {
          width: min(320px, 70vw);
-         margin-left: -34px;
-         margin-bottom: -48px;
+         margin-bottom: 22px;
          filter: drop-shadow(0 12px 22px rgba(0, 0, 0, 0.34));
       }
 
@@ -98,7 +97,7 @@ section {
 
       h1 {
          max-width: 780px;
-         font-size: clamp(2.6rem, 8vw, 6.4rem);
+         font-size: clamp(2.6rem, 6vw, 6.4rem);
          line-height: 0.96;
       }
 
@@ -383,6 +382,18 @@ section {
          filter: brightness(1.08);
       }
    }
+
+   .castanhal {
+      background-image: url('https://agenciapara.com.br/midias/2026/grandes/20260128195704-GF00026160-F00487702.webp');
+   }
+
+   .curuca {
+      background-image: url('https://www.agenciapara.com.br/midias/2024/grandes/20468_f58ec8ad-a1e6-3d70-a10f-97156fa98232.jpg');
+   }
+
+   .santa-izabel {
+      background-image: url('../imgs/santa-izabel/santa-izabel1.jpg');
+   }
 }
 
 @media (max-width: 820px) {
@@ -411,8 +422,6 @@ section {
       .hero-content {
          img {
             width: min(260px, 78vw);
-            margin-left: -26px;
-            margin-bottom: -36px;
          }
       }
 
