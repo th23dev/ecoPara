@@ -5,21 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu - EcoPará</title>
-    <link rel="stylesheet" href="../css/conexao.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
 
 <body>
-    <section class="menu">
-        <div class="div1"><h1>Castanhal</h1></div>
-        <div class="div2"><h1>Curuçá</h1></div>
-        <div class="div3"><h1>Santa Izabel</h1></div>
-        <div class="div4"><h1>Igarapé Açu</h1></div>
-        <div class="div5"><h1>Bragança</h1></div>
-        <div class="div6"><h1>Altamira</h1></div>
-        <div class="div7"><h1>Ourilândia do Norte</h1></div>
-        <div class="div8"><h1>Redenção</h1></div>
-    </section>
+    <main class="menu-page">
+        <header class="menu-header">
+            <a href="../index.html" class="back-link">Voltar</a>
+            <img src="../imgs/ECOPA-logo1.png" alt="EcoPará">
+        </header>
+
+        <section class="menu-intro">
+            <span>Destinos paraenses</span>
+            <h1>Escolha uma cidade para explorar</h1>
+            <p>Conheça lugares, paisagens e experiências naturais de diferentes regiões do Pará.</p>
+        </section>
+
+        <section class="menu" aria-label="Lista de cidades">
+            <a href="locais/castanhal.html" class="cidade-card castanhal">
+                <h2>Castanhal</h2>
+                <p>Natureza, história e cultura local.</p>
+            </a>
+            <a href="locais/curuca.html" class="cidade-card curuca">
+                <h2>Curuçá</h2>
+                <p>Praias, rios e paisagens naturais.</p>
+            </a>
+            <a href="locais/santa-izabel.html" class="cidade-card santa-izabel">
+                <h2>Santa Izabel</h2>
+                <p>Trilhas, igarapés e refúgios verdes.</p>
+            </a>
+            <a href="locais/igarape-acu.html" class="cidade-card igarape-acu">
+                <h2>Igarapé Açu</h2>
+                <p>Águas, mata e tranquilidade regional.</p>
+            </a>
+            <a href="locais/braganca.html" class="cidade-card braganca">
+                <h2>Bragança</h2>
+                <p>Manguezais, praias e tradição cultural.</p>
+            </a>
+            <a href="locais/altamira.html" class="cidade-card altamira">
+                <h2>Altamira</h2>
+                <p>Grandeza amazônica às margens do Xingu.</p>
+            </a>
+            <a href="locais/ourilandia-do-norte.html" class="cidade-card ourilandia">
+                <h2>Ourilândia do Norte</h2>
+                <p>Rotas de aventura e natureza preservada.</p>
+            </a>
+            <a href="locais/redencao.html" class="cidade-card redencao">
+                <h2>Redenção</h2>
+                <p>Campo, rios e paisagens do sul paraense.</p>
+            </a>
+        </section>
+        <script src="../script.js"></script>
+    </main>
 </body>
-<script src="script.js"></script>
 
 </html>

@@ -4,48 +4,86 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Belezas Paraenses</title>
-   <link rel="stylesheet" href="css/conexao.css">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <main>
       <nav id="navbar">
+         <a href="#hero-section" class="nav-logo">EcoPará</a>
          <ul>
             <li><a href="#hero-section">Início</a></li>
             <li><a href="#descricao">Sobre</a></li>
+            <li><a href="#destaques">Destaques</a></li>
          </ul>
       </nav>
       <section id="hero-section">
-         <img src="imgs/ECOPA-logo.png" alt="logo do site">
-         <p>Descubra as maravilhas naturais do Pará</p>
-         <a href="pages/menu.html" id="btn-navegar">Navegar</a>
+         <div class="hero-content">
+            <img src="imgs/ECOPA-logo.png" alt="logo do site">
+            <span>Natureza, cultura e rotas paraenses</span>
+            <h1>Descubra as maravilhas naturais do Pará</h1>
+            <p>Explore cidades, rios, praias, igarapés e paisagens amazônicas em um guia visual feito para valorizar o território paraense.</p>
+            <div class="hero-actions">
+               <a href="pages/menu.html" id="btn-navegar">Explorar destinos</a>
+               <a href="#descricao" class="btn-secundario">Conhecer o projeto</a>
+            </div>
+         </div>
       </section>
 
       <section id="descricao">
          <div class="descricao-top">
             <div class="section-intro">
                <span class="section-tag">Conheça o Pará</span>
-               <h1>Sobre</h1>
-               <p>Descubra o estado do Pará através de sua natureza exuberante, cultura rica e histórias únicas. Esta seção apresenta o que torna essa região especial e inspira você a explorar suas belezas.</p>
+               <h1>Um guia para explorar paisagens paraenses</h1>
+               <p>O EcoPará reúne destinos, curiosidades e sugestões de contato com a natureza para mostrar diferentes formas de conhecer o estado.</p>
             </div>
-            <a href="#sobre-info" class="button-outline">Saiba mais</a>
+            <a href="pages/menu.html" class="button-outline">Ver cidades</a>
          </div>
 
          <div class="descricao-grid" id="sobre-info">
-            <article class="desc-box" data-icon="🌿">
-               <h2>Sobre o site</h2>
-               <p>Este site é dedicado a promover as belezas naturais do estado do Pará, no Brasil. Aqui você encontrará informações sobre pontos turísticos, dicas de viagem e curiosidades sobre a região.</p>
+            <article class="desc-box">
+               <span>01</span>
+               <h2>Destinos naturais</h2>
+               <p>Cidades com rios, praias, igarapés, áreas verdes e paisagens que representam a diversidade ambiental do Pará.</p>
             </article>
-            <article class="desc-box" data-icon="🌎">
-               <h2>Sobre o Pará</h2>
-               <p>O Pará é conhecido por sua rica biodiversidade, cultura indígena e paisagens naturais impressionantes. É um destino único para quem busca natureza, gastronomia e tradições locais.</p>
+            <article class="desc-box">
+               <span>02</span>
+               <h2>Cultura regional</h2>
+               <p>Conteúdos que conectam natureza, comunidades, culinária, costumes e histórias presentes em cada região.</p>
             </article>
-            <article class="desc-box" data-icon="✨">
-               <h2>Curiosidades</h2>
-               <p>O Pará abriga a maior parte da Floresta Amazônica, é o segundo maior estado do Brasil e oferece uma culinária vibrante com pratos como tacacá e pato no tucupi.</p>
+            <article class="desc-box">
+               <span>03</span>
+               <h2>Roteiros simples</h2>
+               <p>Uma navegação direta para escolher uma cidade e ver pontos naturais que podem inspirar futuras visitas.</p>
             </article>
          </div>
       </section>
-   </main>    
+
+      <section id="destaques">
+         <div class="destaques-intro">
+            <span class="section-tag">Primeiros destinos</span>
+            <h2>Comece por estas regiões</h2>
+         </div>
+
+         <div class="destaques-grid">
+            <a href="pages/locais/castanhal.html" class="destaque-card">
+               <span>Nordeste paraense</span>
+               <h3>Castanhal</h3>
+               <p>Áreas verdes urbanas, igarapés e balneários.</p>
+            </a>
+            <a href="pages/locais/braganca.html" class="destaque-card">
+               <span>Litoral</span>
+               <h3>Bragança</h3>
+               <p>Ajuruteua, manguezais e paisagens costeiras.</p>
+            </a>
+            <a href="pages/locais/altamira.html" class="destaque-card">
+               <span>Xingu</span>
+               <h3>Altamira</h3>
+               <p>Rio Xingu, praias de água doce e floresta.</p>
+            </a>
+         </div>
+      </section>
+      <script src="script.js"></script>
+   </main>
 </body>
-<script src="script.js"></script>
 </html>
